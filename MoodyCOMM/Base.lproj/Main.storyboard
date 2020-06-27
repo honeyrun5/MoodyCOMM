@@ -352,7 +352,10 @@
                                 <rect key="frame" x="16" y="149" width="343" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Vn4-76-lvQ" id="aTs-6j-OGA"/>
+                                </connections>
                             </textField>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nIb-0K-QJR">
                                 <rect key="frame" x="181" y="213" width="179" height="162"/>

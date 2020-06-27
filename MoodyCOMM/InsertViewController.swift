@@ -20,7 +20,7 @@ class InsertViewController: UIViewController, UITextFieldDelegate, UIImagePicker
 
     //장르는 PickerView로 선택이 가능하게 함.
     let genreArray: [String] = ["얼터너티브", "클래식", "일렉트로닉",
-    "힙합 / 랩", "J-POP", "재즈", "컨트리", "K-POP", "팝", "R&B", "록"]
+    "힙합 / 랩", "J-POP", "재즈", "컨트리", "K-POP", "팝", "RnB", "록"]
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool { // delegate 연결
         textField.resignFirstResponder()
